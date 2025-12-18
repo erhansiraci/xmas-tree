@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Tree Widget</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="widget-container">
+    <canvas id="snow-canvas"></canvas>
+    <canvas id="tree-canvas"></canvas>
+    <div id="controls">
+      <button id="toggle-snow" data-tip="Snow">❄️</button>
+      <button id="toggle-lights" data-tip="Lights">💡</button>
+      <button id="clear-ornaments" data-tip="Clear">🧹</button>
+      <button id="reset-tree" data-tip="Randomize">🎲</button>
+      <button id="delete-mode" data-tip="Delete">🗑️</button>
+      <button id="close-widget" data-tip="Close">✕</button>
+    </div>
+    <div id="ornament-palette">
+      <button class="ornament-btn" data-type="kirmizitop" data-tip="Red"><img src="assets/PNG/kirmizitop.png"></button>
+      <button class="ornament-btn" data-type="mavitop" data-tip="Blue"><img src="assets/PNG/mavitop.png"></button>
+      <button class="ornament-btn" data-type="saritop" data-tip="Yellow"><img src="assets/PNG/saritop.png"></button>
+      <button class="ornament-btn" data-type="beyaztop" data-tip="White"><img src="assets/PNG/beyaztop.png"></button>
+      <button class="ornament-btn" data-type="zil" data-tip="Bell"><img src="assets/PNG/zil.png"></button>
+      <button class="ornament-btn" data-type="kozalak" data-tip="Pinecone"><img src="assets/PNG/kozalak.png"></button>
+    </div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
