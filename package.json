@@ -1,7 +1,7 @@
 {
-  "name": "xmas-tree",
+  "name": "new-year-tree",
   "version": "1.0.0",
-  "description": "Christmas Tree - Interactive Desktop Widget",
+  "description": "New Year Tree - Interactive Desktop Widget",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -10,8 +10,8 @@
     "build:win": "electron-builder --win"
   },
   "build": {
-    "appId": "com.xmas.tree",
-    "productName": "Xmas Tree",
+    "appId": "com.newyear.tree",
+    "productName": "New Year Tree",
     "directories": {
       "output": "dist"
     },
@@ -46,7 +46,7 @@
     }
   },
   "keywords": [
-    "christmas",
+    "new-year",
     "widget",
     "desktop",
     "electron"

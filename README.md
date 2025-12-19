@@ -1,12 +1,12 @@
-# Xmas Tree - Interactive Desktop Widget
+# New Year Tree - Interactive Desktop Widget
 
-A fun, interactive Christmas tree desktop widget for Windows and macOS.
+A fun, interactive New Year tree desktop widget for Windows and macOS.
 
 ## Zero Human Code
 
 This entire widget was developed using **zero human-written code** - created purely through AI prompts with Claude Code. In just tens of prompts, we built a fully functional desktop application with:
 
-- Animated Christmas tree with PNG assets
+- Animated New Year tree with PNG assets
 - Interactive ornament placement (click to add)
 - Tinsel garlands with animated sparkles
 - Falling snow effect
@@ -65,11 +65,11 @@ Built packages will be in the `dist/` folder.
 
 ## Internal Distribution
 
-Feel free to distribute this widget internally within your organization. It's open source and meant for holiday fun!
+Feel free to distribute this widget internally within your organization. It's open source and meant for New Year celebrations!
 
 ## License
 
-MIT License - Use it, modify it, share the holiday spirit!
+MIT License - Use it, modify it, share the New Year spirit!
 
 ---
 
